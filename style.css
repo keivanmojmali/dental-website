@@ -1,3 +1,10 @@
 .larger-height {
   height: 150px;
 }
+
+.carousel {
+  background-image: url('./images/carousel.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
