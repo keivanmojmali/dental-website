@@ -16,3 +16,20 @@
 .icon-size {
   font-size: 2.5rem;
 }
+
+.block-image {
+  width: 400px;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap !important;
+}
+
+.scrolling-img-div {
+  height: 400px;
+  padding: 2%;
+  margin: 2%;
+}
