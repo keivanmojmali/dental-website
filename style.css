@@ -41,3 +41,8 @@
 .video-max-width {
   max-width: 700px !important;
 }
+
+.standard-font {
+  font-size: 16px !important;
+font-family: 'Oswald', sans-serif, Arial, Helvetica;
+}
