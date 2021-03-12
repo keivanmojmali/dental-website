@@ -41,3 +41,29 @@
 .video-max-width {
   max-width: 700px !important;
 }
+
+.standard-font {
+  font-size: 16px !important;
+font-family: 'Oswald', sans-serif, Arial, Helvetica;
+}
+
+.p-font {
+ font-size: 18px !important;
+}
+
+.fa-tooth {
+  color: aqua;
+}
+
+.font-bold {
+  font-weight: 600;
+
+}
+
+.max-self {
+  max-width: 1400px;
+}
+
+.bg-lime {
+  background-color: #A7C526;
+}

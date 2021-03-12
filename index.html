@@ -3,6 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +25,7 @@
   <div class="container-fluid">
 
 
-    <div class="row sticky-top bg-light">
+    <div class="row sticky-top bg-light standard-font">
       <div class="col">
         <!-- THIS IS THE ROW WITH THE LOGO -->
         <div class="row border-bottom larger-height d-flex justify-content-center align-items-center">
@@ -36,7 +43,7 @@
         </div>
 
         <!-- THE NAVIGATION -->
-        <div class="row">
+        <div class="row standard-font">
           <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +62,7 @@
     </div>
 
 
-    <!-- THIS IS THE CAROUSEL  -->
+    <!-- THIS IS THE carousel -->
     <div class="row">
       <div class="col carousel">
 
@@ -63,16 +70,26 @@
     </div>
 
 
+
     <!-- COLORFUL ROW WITH THREE COLUMNS -->
-    <div class="row largest-height">
-      <div class="col bg-success text-light d-flex justify-content-center align-items-center">
-        <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elitvitae impedit?</h6>
+    <div class="row largest-height standard-font">
+      <div class="col bg-lime text-light d-flex justify-content-center align-items-center">
+        <div>
+          <h5>Tooth Protection</h5>
+          <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elitvitae impedit?</h6>
+        </div>
       </div>
       <div class="col bg-info text-light d-flex justify-content-center align-items-center">
-        <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, eius.</h6>
+        <div>
+          <h5>Tooth Protection</h5>
+          <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elitvitae impedit?</h6>
+        </div>
       </div>
-      <div class="col  bg-dark text-light d-flex justify-content-center align-items-center">
-        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, r!</h6>
+      <div class="col bg-dark text-light d-flex justify-content-center align-items-center">
+        <div>
+          <h5>Tooth Protection</h5>
+          <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elitvitae impedit?</h6>
+        </div>
       </div>
     </div>
 
@@ -80,7 +97,7 @@
 
 
     <!-- THIS IS THE MEET DENTIST SECTION -->
-    <div class="row larger-height d-flex justify-content-center align-items-center">
+    <div class="row larger-height d-flex justify-content-center align-items-center standard-font">
       <div class="col text-center">
         <h2>Meet the Dentist</h2>
         <h6>Lorem ipsum dolor sit amet.</h6>
@@ -91,21 +108,21 @@
         <img src="./images/dr.webp" alt="dr" class="img-fluid p-5">
       </div>
       <div class="col d-flex flex-column justify-content-center align-items-center">
-        <div class="row m-3">
+        <div class="row m-3 standard-font">
           <div class="col">
             <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium accusamus vitae assumenda voluptas
               ipsa alias voluptatem voluptatum ex, nemo numquam eum at earum eligendi reiciendis maxime cumque saepe
               natus autem.</h5>
           </div>
         </div>
-        <div class="row m-3">
+        <div class="row m-3 standard-font p-font">
           <div class="col">
-            <h5>Lorem ipsum dolor sit amet.</h5>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus ducimus provident ipsam illo nobis.</h5>
           </div>
         </div>
-        <div class="row m-3">
+        <div class="row m-3 standard-font">
           <div class="col">
-            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsum.</h5>
           </div>
         </div>
         <div class="row m-3">
@@ -118,7 +135,7 @@
 
     <!-- VIDEO SECTION  -->
 
-    <div class="row p-5 bg-primary d-flex justify-content-center align-items-center">
+    <div class="row p-5 bg-info d-flex justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center video-max-width">
         <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center align-items-center">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
@@ -130,7 +147,7 @@
 
 
     <!-- SERVICES OFFERED  -->
-    <div class="row larger-height d-flex justify-content-center align-items-center">
+    <div class="row larger-height d-flex justify-content-center align-items-center standard-font">
       <div class="col text-center">
         <h2>Services Offered</h2>
         <h6>Lorem ipsum dolor sit amet.</h6>
@@ -140,90 +157,90 @@
     <div class="row m-3 p-3">
 
       <div class="col">
-        <div class="row">
+        <div class="row m-3">
           <div class="col text-center">
             <i class="fas fa-tooth icon-size"></i>
           </div>
         </div>
-        <div class="row">
-          <div class="col text-center">
-            <h6><span class="fw-bold">Tooth Service</span></h6>
+        <div class="row standard-font">
+          <div class="col text-center p-3">
+            <h6><span class="font-bold m-2">Tooth Service</span></h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
           </div>
         </div>
       </div>
 
-      <div class="col">
-        <div class="row">
-          <div class="col text-center">
-            <i class="fas fa-tooth icon-size"></i>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <h6><span class="fw-bold">Tooth Service</span></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
-          </div>
-        </div>
+  <div class="col">
+    <div class="row m-3">
+      <div class="col text-center">
+        <i class="fas fa-tooth icon-size"></i>
       </div>
+    </div>
+    <div class="row standard-font">
+      <div class="col text-center p-3">
+        <h6><span class="font-bold m-2">Tooth Service</span></h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
+      </div>
+    </div>
+  </div>
 
-      <div class="col">
-        <div class="row">
-          <div class="col text-center">
-            <i class="fas fa-tooth icon-size"></i>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <h6><span class="fw-bold">Tooth Service</span></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
-          </div>
-        </div>
+  <div class="col">
+    <div class="row m-3">
+      <div class="col text-center">
+        <i class="fas fa-tooth icon-size"></i>
       </div>
+    </div>
+    <div class="row standard-font">
+      <div class="col text-center p-3">
+        <h6><span class="font-bold m-2">Tooth Service</span></h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
+      </div>
+    </div>
+  </div>
 
     </div>
-    <div class="row">
-      <div class="col">
-        <div class="row">
-          <div class="col text-center">
-            <i class="fas fa-tooth icon-size"></i>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <h6><span class="fw-bold">Tooth Service</span></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
-          </div>
-        </div>
+    <div class="row m-3 p-3">
+  <div class="col">
+    <div class="row m-3">
+      <div class="col text-center">
+        <i class="fas fa-tooth icon-size"></i>
       </div>
+    </div>
+    <div class="row standard-font">
+      <div class="col text-center p-3">
+        <h6><span class="font-bold m-2">Tooth Service</span></h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
+      </div>
+    </div>
+  </div>
 
-      <div class="col">
-        <div class="row">
-          <div class="col text-center">
-            <i class="fas fa-tooth icon-size"></i>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <h6><span class="fw-bold">Tooth Service</span></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
-          </div>
-        </div>
+  <div class="col">
+    <div class="row m-3">
+      <div class="col text-center">
+        <i class="fas fa-tooth icon-size"></i>
       </div>
+    </div>
+    <div class="row standard-font">
+      <div class="col text-center p-3">
+        <h6><span class="font-bold m-2">Tooth Service</span></h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
+      </div>
+    </div>
+  </div>
 
-      <div class="col">
-        <div class="row">
-          <div class="col text-center">
-            <i class="fas fa-tooth icon-size"></i>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <h6><span class="fw-bold">Tooth Service</span></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
-          </div>
-        </div>
+  <div class="col">
+    <div class="row m-3">
+      <div class="col text-center">
+        <i class="fas fa-tooth icon-size"></i>
       </div>
+    </div>
+    <div class="row standard-font">
+      <div class="col text-center p-3">
+        <h6><span class="font-bold m-2">Tooth Service</span></h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, odio?</p>
+      </div>
+    </div>
+  </div>
 
     </div>
 
@@ -252,7 +269,7 @@
 
 <!-- THIS IS THE CONTACT FORM -->
 
-<div class="row bg-dark text-light p-3">
+<div class="row bg-dark text-light p-3 standard-font">
   <div class="p-5 col d-flex justify-content-center align-items-center text-center">
     <h5> Please fill out form for a free consultation </h5>
   </div>
@@ -288,7 +305,7 @@
   </div>
 </div>
 
-<div class="row d-flex justify-content-center align-items-center m-4">
+<div class="row d-flex justify-content-center align-items-center m-4 standard-font">
   <div class="col p-3 text-center flex-column d-flex justify-content-center align-items-center">
     <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="testimonial-img img-fluid">
     <h6 class="m-2">Jula FakePerson</h6>
@@ -309,8 +326,8 @@
 </div>
 
 <!-- FOOOTER -->
-<div class="row bg-dark text-light largest-height">
-  <div class="col-5 d-flex flex-column justify-content-center align-items-center">
+<div class="row bg-dark text-light largest-height d-flex standard-font">
+  <div class="col d-flex flex-column justify-content-center align-items-center">
     <h6>CONTACT</h6>
     <p>
       Sharifi Dental <br>
@@ -358,8 +375,9 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <script src="./main.js"></script>
+  <script src="path-to-the-file/splide.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
