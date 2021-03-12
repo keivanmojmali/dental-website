@@ -1,0 +1,23 @@
+{
+  "name": "dental-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keivanmojmali/dental-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keivanmojmali/dental-website/issues"
+  },
+  "homepage": "https://github.com/keivanmojmali/dental-website#readme",
+  "keywords": [],
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21"
+  }
+}

@@ -63,3 +63,7 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 .max-self {
   max-width: 1400px;
 }
+
+.bg-lime {
+  background-color: #A7C526;
+}
