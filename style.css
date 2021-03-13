@@ -91,3 +91,12 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 .website-width {
   width: 60%;
 }
+
+.black {
+  color: black;
+}
+.black:hover {
+ background-color:#6ee4ff ;
+ color: white;
+ cursor: pointer;
+}
