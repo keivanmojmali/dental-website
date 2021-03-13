@@ -2,7 +2,7 @@
   height: 150px;
 }
 
-.carousel {
+.top-div {
   background-image: url('./images/carousel.jpg');
   background-position: center;
   background-size: cover;
@@ -68,12 +68,14 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
   background-color: #A7C526;
 }
 
-.unstyled-link {
-  text-decoration: none;
-  color: black;
-  outline: none;
+.vh-60 {
+  height: 60vh;
 }
 
-a:hover {
-  color: ;
+.rounded-border {
+  border-radius: 3%;
+}
+
+.bg-light-blue {
+  background-color: #a7ebfc !important;
 }
