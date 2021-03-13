@@ -2,7 +2,7 @@
   height: 150px;
 }
 
-.carousel {
+.top-div {
   background-image: url('./images/carousel.jpg');
   background-position: center;
   background-size: cover;
@@ -41,8 +41,6 @@
 .video-max-width {
   max-width: 700px !important;
 }
-<<<<<<< HEAD
-=======
 
 .standard-font {
   font-size: 16px !important;
@@ -69,4 +67,36 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 .bg-lime {
   background-color: #A7C526;
 }
->>>>>>> 19d2f966befd92b68cddb7204facf698149f38bc
+
+.vh-60 {
+  height: 60vh;
+}
+
+.rounded-border {
+  border-radius: 3%;
+}
+
+.bg-light-blue {
+  background-color:#6ee4ff !important;
+}
+
+.dark-shadow {
+  box-shadow: 1px 4px 5px 0px #5E5E5E;
+}
+
+.website-max {
+  max-width: 1300px !important;
+}
+
+.website-width {
+  width: 60%;
+}
+
+.black {
+  color: black;
+}
+.black:hover {
+ background-color:#6ee4ff ;
+ color: white;
+ cursor: pointer;
+}
