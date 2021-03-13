@@ -28,15 +28,15 @@
 
       <div class="col">
         <!-- THIS IS THE ROW WITH THE LOGO -->
-        <div class="row border-bottom larger-height d-flex justify-content-center align-items-center">
-          <div class="col text-right">
+        <div id="topDiv" class="row border-bottom larger-height d-flex justify-content-center align-items-center">
+          <div id="topDivLeft" class="col text-right">
             <h6>1-949-505-3110</h6>
             <h6>1234 Dentist St. CA 92619</h6>
           </div>
           <div class="col text-center">
             <img src="./images/logo.webp" alt="logo">
           </div>
-          <div class="col text-left">
+          <div id="topDivRight" class="col text-left">
             <h6>Open Hours:</h6>
             <h6>Mon - Fri: 9 AM - 2 PM</h6>
           </div>
@@ -149,9 +149,9 @@
       </div>
     </div>
 
-    <div class="row m-3 p-3">
-      <div class="col">
-        <div id="accordion">
+    <div class="row m-3 p-3  d-flex justify-content-center align-items-center">
+      <div class="col d-flex justify-content-center align-items-center ">
+        <div class="website-width" id="accordion">
 
           <div class="card bg-light-blue text-dark">
             <div class="card-header">
@@ -319,32 +319,37 @@
       </div>
     </div>
 
-    <div class="row bg-dark vh-60 p-3 standard-font">
-      <div class="p-5 col d-flex justify-content-center align-items-center text-center text-light standard-font">
-        <h5> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, molestias voluptas. Eligendi earum
-          nostrum, distinctio dolores omnis at accusamus corrupti.</h5>
-      </div>
-      <div class="mr-2 p-1 col d-flex flex-column justify-content-center align-items-center">
-        <form action="#" class="w-100 bg-light text-dark p-3 rounded-border">
-          <div class="form-group d-flex flex-column">
-            <label for="name"> First and Last Name</label>
-            <input type="text" class="form-control" name='name'>
+    <div class=" row bg-dark vh-60 p-3 standard-font d-flex justify-content-center align-items-center">
+      <div class="col website-max">
+        <div class="row">
+          <div class="p-5 col d-flex justify-content-center align-items-center text-center text-light standard-font">
+            <h5> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, molestias voluptas. Eligendi
+              earum
+              nostrum, distinctio dolores omnis at accusamus corrupti.</h5>
           </div>
-          <div class="form-group d-flex flex-column">
-            <label for="phone">Phone Number</label>
-            <input type="text" class="form-control" name="number">
+          <div class="mr-2 p-1 col d-flex flex-column justify-content-center align-items-center">
+            <form action="#" class="w-100 bg-light text-dark p-3 rounded-border">
+              <div class="form-group d-flex flex-column">
+                <label for="name"> First and Last Name</label>
+                <input type="text" class="form-control" name='name'>
+              </div>
+              <div class="form-group d-flex flex-column">
+                <label for="phone">Phone Number</label>
+                <input type="text" class="form-control" name="number">
+              </div>
+              <div class="form-group d-flex flex-column">
+                <label for="time">Best Time to Contact</label>
+                <select name="time" class="form-control" id="formTime">
+                  <option value="Morning">Morning</option>
+                  <option value="Evening">Evening</option>
+                </select>
+              </div>
+              <div class="form-group d-flex flex-column">
+                <button class="btn btn-primary btn-lg">Submit</button>
+              </div>
+            </form>
           </div>
-          <div class="form-group d-flex flex-column">
-            <label for="time">Best Time to Contact</label>
-            <select name="time" class="form-control" id="formTime">
-              <option value="Morning">Morning</option>
-              <option value="Evening">Evening</option>
-            </select>
-          </div>
-          <div class="form-group d-flex flex-column">
-            <button class="btn btn-primary btn-lg">Submit</button>
-          </div>
-        </form>
+        </div>
 
       </div>
     </div>
@@ -357,55 +362,108 @@
       </div>
     </div>
 
-<div class="row bg-light-blue p-5">
-<div class="col d-flex justify-content-center align-items-center">
+    <div class="row bg-light-blue p-5">
+      <div class="col d-flex justify-content-center align-items-center">
 
-<div class="card dark-shadow m-3" style="width: 18rem;">
-  <div class="card-body">
-    <div class="card-title d-flex justify-content-center align-items-center">
-      <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="rounded-circle w-50 m-3 p-2">
-      <h5>Jessica Smith</h5>
-    </div>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-      card's content.
-    </p>
-  </div>
-</div>
+        <div class="card dark-shadow m-3" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-center align-items-center">
+              <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="rounded-circle w-50 m-3 p-2">
+              <h5>Jessica Smith</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+          </div>
+        </div>
 
-<div class="card dark-shadow m-3" style="width: 18rem;">
-  <div class="card-body">
-    <div class="card-title d-flex justify-content-center align-items-center">
-      <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="rounded-circle w-50 m-3 p-2">
-      <h5>Jessica Smith</h5>
-    </div>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-      card's content.
-    </p>
-  </div>
-</div>
-<div class="card dark-shadow m-3" style="width: 18rem;">
-  <div class="card-body">
-    <div class="card-title d-flex justify-content-center align-items-center">
-      <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="rounded-circle w-50 m-3 p-2">
-      <h5>Jessica Smith</h5>
-    </div>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-      card's content.
-    </p>
-  </div>
-</div>
+        <div class="card dark-shadow m-3" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-center align-items-center">
+              <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="rounded-circle w-50 m-3 p-2">
+              <h5>Jessica Smith</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card dark-shadow m-3" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-center align-items-center">
+              <img src="./images/lindy-testimonial.jpg" alt="testimonial" class="rounded-circle w-50 m-3 p-2">
+              <h5>Jessica Smith</h5>
+            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+          </div>
+        </div>
 
-</div>
-</div>
+      </div>
+    </div>
 
 
 
 
     <!-- FOOOTER -->
-    <div class="row bg-dark text-light d-flex standard-font">
+    <div class="row bg-dark text-light d-flex standard-font p-5 justify-content-center align-items-center">
+      <div class="col website-max">
 
 
-  </div>
+        <div class="row">
+          <div class="col">
+            <div>
+              <div>
+                <h1>Contact Us</h1>
+                <h1>Call 949-505-3110</h1>
+              </div>
+            </div>
+            <div>
+              <h3>Location</h3>
+              <h5>124 Dental St. <br>
+                Santa Monica, CA 92679
+              </h5>
+            </div>
+          </div>
+          <div class="col">
+            <h5 class="mb-3">Hours of Operation</h5>
+            <div>
+              <div class="d-flex justify-content-between align-items-center border-bottom mt-2">
+                <h5>Monday</h5>
+                <h5>9 AM - 2 PM</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom mt-2">
+                <h5>Tuesday</h5>
+                <h5>9 AM - 2 PM</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom mt-2">
+                <h5>Wednesday</h5>
+                <h5>9 AM - 2 PM</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom mt-2">
+                <h5>Thursday</h5>
+                <h5>9 AM - 2 PM</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom mt-2">
+                <h5>Friday</h5>
+                <h5>9 AM - 2 PM</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center border-bottom mt-2">
+                <h5>Saturday</h5>
+                <h5>Closed</h5>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mt-2">
+                <h5>Sunday</h5>
+                <h5>Closed</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
 
@@ -433,18 +491,18 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-  <script src="./main.js"></script>
-  <script src="path-to-the-file/splide.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -83,3 +83,11 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 .dark-shadow {
   box-shadow: 1px 4px 5px 0px #5E5E5E;
 }
+
+.website-max {
+  max-width: 1300px !important;
+}
+
+.website-width {
+  width: 60%;
+}
