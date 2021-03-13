@@ -79,3 +79,7 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 .bg-light-blue {
   background-color: #a7ebfc !important;
 }
+
+.dark-shadow {
+  box-shadow: 1px 4px 5px 0px #5E5E5E;
+}
