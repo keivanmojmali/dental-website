@@ -18,6 +18,8 @@
   "homepage": "https://github.com/keivanmojmali/dental-website#readme",
   "keywords": [],
   "dependencies": {
-    "@splidejs/splide": "^2.4.21"
+    "@splidejs/splide": "^2.4.21",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1"
   }
 }

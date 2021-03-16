@@ -100,3 +100,74 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
  color: white;
  cursor: pointer;
 }
+
+.img-gallery {
+  width: 450px;
+}
+
+.scrolling-div {
+  height: 300px;
+    overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap !important;
+}
+
+.icon-size {
+  font: 18px !important;
+}
+
+.gallery-flex {
+  flex-basis: 100%
+}
+
+@media screen and (min-width: 600px) {
+  .gallery-flex {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .gallery-flex {
+    flex-basis: 30%;
+  }
+}
+
+.fas:hover {
+  cursor: pointer;
+  color: #6ee4ff;
+}
+
+* {
+  font-family: 'Oswald', sans-serif, Arial, Helvetica;
+}
+
+.reviewsDivScroll {
+  height: 350px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.font-2rem {
+  font-size: 2rem;
+}
+
+.nav-logo {
+  background-image: url('./images/2.PNG');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.img-sm {
+  width: 200px;
+}
+
+.font-one-half-rem {
+  font-size: 1.5rem;
+}
+
+
+.display-none {
+  display: none !important;
+}
