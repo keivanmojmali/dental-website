@@ -141,3 +141,9 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 * {
   font-family: 'Oswald', sans-serif, Arial, Helvetica;
 }
+
+.reviewsDivScroll {
+  height: 350px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

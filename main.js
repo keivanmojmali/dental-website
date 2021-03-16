@@ -2,24 +2,9 @@ const $topDiv = document.querySelector('#topDiv');
 const $topDivLeft = document.querySelector('#topDivLeft');
 const $topDivRight = document.querySelector('#topDivRight');
 const $pictureCarousel = document.querySelector('#pictureCarousel');
-const picIndex = 0;
-const $galleryControls = document.querySelector('#galleryControls')
-const pictureArray = [
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-  './images/pic.png',
-]
+const $galleryControls = document.querySelector('#galleryControls');
+const $clientReviews = document.querySelector('#clientReviews');
+const $moreReviews = document.querySelector('#moreReviews');
 
 window.addEventListener('scroll',()=>{
   if(window.scrollY !== 0) {
@@ -36,9 +21,7 @@ window.addEventListener('scroll',()=>{
 
 
 
-
 $galleryControls.addEventListener('click',(e)=>{
-  console.log(event.target.id, $pictureCarousel.scrollLeft )
  switch(event.target.id) {
    case 'right':
      $pictureCarousel.scrollLeft += 300;
@@ -47,4 +30,10 @@ $galleryControls.addEventListener('click',(e)=>{
      $pictureCarousel.scrollLeft -= 300;
      break;
  }
+})
+
+
+$moreReviews.addEventListener('click',(e)=>{
+  console.log($clientReviews.scrollTop)
+  $clientReviews.scrollTop += 300;
 })
