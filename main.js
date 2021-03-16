@@ -5,6 +5,7 @@ const $pictureCarousel = document.querySelector('#pictureCarousel');
 const $galleryControls = document.querySelector('#galleryControls');
 const $clientReviews = document.querySelector('#clientReviews');
 const $moreReviews = document.querySelector('#moreReviews');
+const $backToTopReviews = document.querySelector('#backToTopReviews')
 
 window.addEventListener('scroll',()=>{
   if(window.scrollY !== 0) {
@@ -35,5 +36,11 @@ $galleryControls.addEventListener('click',(e)=>{
 
 $moreReviews.addEventListener('click',(e)=>{
   console.log($clientReviews.scrollTop)
-  $clientReviews.scrollTop += 300;
+  $clientReviews.scrollTop += 360;
+  $backToTopReviews.classList.remove('d-none')
+})
+
+$backToTopReviews.addEventListener('click',(e)=>{
+  backToTopReviews.classList.add('d-none');
+    $clientReviews.scrollTop =0 ;
 })
