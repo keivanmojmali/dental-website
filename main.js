@@ -1,7 +1,25 @@
 const $topDiv = document.querySelector('#topDiv');
 const $topDivLeft = document.querySelector('#topDivLeft');
 const $topDivRight = document.querySelector('#topDivRight');
-
+const $pictureCarousel = document.querySelector('#pictureCarousel');
+const picIndex = 0;
+const $galleryControls = document.querySelector('#galleryControls')
+const pictureArray = [
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+  './images/pic.png',
+]
 
 window.addEventListener('scroll',()=>{
   if(window.scrollY !== 0) {
@@ -14,4 +32,19 @@ window.addEventListener('scroll',()=>{
     $topDivRight.classList.remove('invisible')
     $topDivLeft.classList.remove('invisible')
   }
+})
+
+
+
+
+$galleryControls.addEventListener('click',(e)=>{
+  console.log(event.target.id, $pictureCarousel.scrollLeft )
+ switch(event.target.id) {
+   case 'right':
+     $pictureCarousel.scrollLeft += 300;
+     break;
+     case 'left':
+     $pictureCarousel.scrollLeft -= 300;
+     break;
+ }
 })
