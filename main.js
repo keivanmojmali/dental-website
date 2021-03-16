@@ -6,7 +6,12 @@ const $galleryControls = document.querySelector('#galleryControls');
 const $clientReviews = document.querySelector('#clientReviews');
 const $moreReviews = document.querySelector('#moreReviews');
 const $backToTopReviews = document.querySelector('#backToTopReviews')
-const $learnMore = document.querySelector('#learnMore')
+const $learnMore = document.querySelector('#learnMore');
+const $drInfoButton = document.querySelector('#drInfoButton');
+const $drDiv = document.querySelector('#drDiv')
+const $behnazDiv = document.querySelector('#behnazDiv')
+
+
 
 window.addEventListener('scroll',()=>{
   if(window.scrollY !== 0) {
@@ -46,16 +51,26 @@ $backToTopReviews.addEventListener('click',(e)=>{
     $clientReviews.scrollTop =0 ;
 })
 
-$learnMore.addEventListener('click'(e)=>{
+$learnMore.addEventListener('click',(e)=>{
 
   switch(event.target.id){
-    case behnaz:
-      add code Headers;
+    case 'behnaz':
+    $behnazDiv.classList.remove('display-none');
+    $drDiv.classList.add('display-none');
+    $drInfoButton.classList.remove('display-none');
       break;
-      case drDiv:
-        add coe Headers;
+      case 'dr':
+  $behnazDiv.classList.add('display-none');
+  $drDiv.classList.remove('display-none');
+  $drInfoButton.classList.remove('display-none');
         break;
   }
 
+})
 
+
+$drInfoButton.addEventListener('click',(e)=>{
+  $drDiv.classList.add('display-none');
+  $behnazDiv.classList.add('display-none');
+  $drInfoButton.classList.add('display-none');
 })
