@@ -6,6 +6,7 @@ const $galleryControls = document.querySelector('#galleryControls');
 const $clientReviews = document.querySelector('#clientReviews');
 const $moreReviews = document.querySelector('#moreReviews');
 const $backToTopReviews = document.querySelector('#backToTopReviews')
+const $learnMore = document.querySelector('#learnMore')
 
 window.addEventListener('scroll',()=>{
   if(window.scrollY !== 0) {
@@ -43,4 +44,18 @@ $moreReviews.addEventListener('click',(e)=>{
 $backToTopReviews.addEventListener('click',(e)=>{
   backToTopReviews.classList.add('d-none');
     $clientReviews.scrollTop =0 ;
+})
+
+$learnMore.addEventListener('click'(e)=>{
+
+  switch(event.target.id){
+    case behnaz:
+      add code Headers;
+      break;
+      case drDiv:
+        add coe Headers;
+        break;
+  }
+
+
 })

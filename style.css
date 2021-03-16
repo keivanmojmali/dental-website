@@ -147,3 +147,7 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.font-2rem {
+  font-size: 2rem;
+}
