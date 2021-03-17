@@ -78,16 +78,17 @@ $drInfoButton.addEventListener('click',(e)=>{
 
 
 $(document).ready(function(){
-  console.log('ready')
   $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
     dots: false,
     centerMode: true,
     centerPadding: '60px',
+
   })
 })
