@@ -28,16 +28,16 @@ window.addEventListener('scroll',()=>{
 
 
 
-$galleryControls.addEventListener('click',(e)=>{
- switch(event.target.id) {
-   case 'right':
-     $pictureCarousel.scrollLeft += 300;
-     break;
-     case 'left':
-     $pictureCarousel.scrollLeft -= 300;
-     break;
- }
-})
+// $galleryControls.addEventListener('click',(e)=>{
+//  switch(event.target.id) {
+//    case 'right':
+//      $pictureCarousel.scrollLeft += 300;
+//      break;
+//      case 'left':
+//      $pictureCarousel.scrollLeft -= 300;
+//      break;
+//  }
+// })
 
 
 $moreReviews.addEventListener('click',(e)=>{
@@ -73,4 +73,18 @@ $drInfoButton.addEventListener('click',(e)=>{
   $drDiv.classList.add('display-none');
   $behnazDiv.classList.add('display-none');
   $drInfoButton.classList.add('display-none');
+})
+
+$(function () {
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: false,
+    centerMode: true,
+    centerPadding: '60px',
+  })
 })
