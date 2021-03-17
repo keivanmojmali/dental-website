@@ -171,3 +171,24 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
 .display-none {
   display: none !important;
 }
+
+.for-slick-slider {
+  display: flex;
+}
+
+.for-slick-slider .items {
+  width: 350px;
+  height: 250px;
+  margin: 50px;
+  position: relative;
+}
+
+.for-slick-slider .items img {
+  width: 350px;
+  height: 250px;
+  transform: all linear .4s;
+}
+
+.for-slick-slider .slick-center img {
+  transform: scale(1.2);
+}
