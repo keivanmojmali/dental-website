@@ -78,6 +78,7 @@ $drInfoButton.addEventListener('click',(e)=>{
 
 
 $(document).ready(function(){
+  console.log('ready')
   $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
