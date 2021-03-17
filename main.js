@@ -75,7 +75,9 @@ $drInfoButton.addEventListener('click',(e)=>{
   $drInfoButton.classList.add('display-none');
 })
 
-$(function () {
+
+
+$(document).ready(function(){
   $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
