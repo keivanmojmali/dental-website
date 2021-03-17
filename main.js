@@ -75,16 +75,20 @@ $drInfoButton.addEventListener('click',(e)=>{
   $drInfoButton.classList.add('display-none');
 })
 
-$(function () {
+
+
+$(document).ready(function(){
   $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
     dots: false,
     centerMode: true,
     centerPadding: '60px',
+
   })
 })

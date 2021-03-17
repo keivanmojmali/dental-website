@@ -167,28 +167,20 @@ font-family: 'Oswald', sans-serif, Arial, Helvetica;
   font-size: 1.5rem;
 }
 
-
 .display-none {
   display: none !important;
 }
 
-.for-slick-slider {
+.multiple-items .items img {
+  width: 300px;
+  height: auto;
+  padding: 1%;
+  margin: 0%;
+}
+
+.multiple-items .items {
   display: flex;
-}
+  justify-content: center;
+  align-items: center;
 
-.for-slick-slider .items {
-  width: 350px;
-  height: 250px;
-  margin: 50px;
-  position: relative;
-}
-
-.for-slick-slider .items img {
-  width: 350px;
-  height: 250px;
-  transform: all linear .4s;
-}
-
-.for-slick-slider .slick-center img {
-  transform: scale(1.2);
 }
